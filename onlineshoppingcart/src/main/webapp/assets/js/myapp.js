@@ -4,14 +4,19 @@ $(function() {
 	switch(menu) {
 	
 	case 'About Us':
-		$('#about').addclass('active');
+		$('#about').addClass('active');
 		break;
 		
 	case 'Contact Us':
-		$('#contact').addclass('active');
+		$('#contact').addClass('active');
+		break;
+		
+		
+	case 'All products':
+		$('#listProduct').addClass('active');
 		break;
 		default:
-			$('home').addclass('active');
+			$('#listProduct').addClass('active');
 		break;
 		
 	

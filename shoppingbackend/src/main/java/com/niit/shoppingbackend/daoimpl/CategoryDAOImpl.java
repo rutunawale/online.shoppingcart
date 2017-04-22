@@ -1,5 +1,7 @@
 package com.niit.shoppingbackend.daoimpl;
 
+
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,12 +10,10 @@ import org.springframework.stereotype.Repository;
 import com.niit.shoppingbackend.dao.CategoryDAO;
 import com.niit.shoppingbackend.dto.Category;
 
-@Repository ("categoryDAO")
+@Repository("categoryDAO")
 public class CategoryDAOImpl implements CategoryDAO {
 
 	private static List<Category> categories = new ArrayList<>();
-	
-	
 	
 	static {
 		   
@@ -40,7 +40,7 @@ public class CategoryDAOImpl implements CategoryDAO {
 			 //  third category
 			   
 			   category = new Category();
-		       category.setId(1);
+		       category.setId(3);
 			   category.setName("kids");
 			   category.setDescription("This is some description for kids !");
 			   category.setImageURL("CAT_3.png");
@@ -58,6 +58,23 @@ public class CategoryDAOImpl implements CategoryDAO {
 	@Override
 	public List<Category> list() {
 		// TODO Auto-generated method stub
+		return categories;
+	}
+
+
+
+
+
+
+	@Override
+	public Category get(int id) {
+		//enchanced for loop
+		for(Category category :categories) {
+			if(category.getId() == id) return category;
+		
+		
+		}
+		
 		return null;
 	}
 

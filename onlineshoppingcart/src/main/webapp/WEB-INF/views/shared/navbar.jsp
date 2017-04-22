@@ -18,19 +18,26 @@
                         <a href="${contextRoot}/about">About</a>
                     </li>
                     <li id=listProducts>
-                        <a href="${contextRoot}/ListProducts">View products</a>
+                        <a href="${contextRoot}/show/all/products">View products</a>
                     </li>
                     <li id="contact">
                         <a href="${contextRoot}/contact">Contact</a>
                     </li>
+                    
+                  <%--     <li id=listProducts>
+                        <a href="${contextRoot}/show/all/products">viewproduct</a>
+                    </li> --%>
+                    
+               
                      <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Category
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="#">category1</a></li>
-          <li><a href="#">category2</a></li>
-          <li><a href="#">category3</a></li>
-        </ul>
+          <li><a href="#">Womens</a></li>
+          <li><a href="#">Mens</a></li>
+          <li><a href="#">kids</a></li>
+          
+       </ul>
       </li>
                 </ul>
             </div>
