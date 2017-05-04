@@ -1,10 +1,7 @@
-    <div class="container">
+    <div>
  
        
-<%--      <%@include file="./shared/sidebar.jsp"  %> --%>
- 
- 
- 
+      
        
 
             <div class="col-md-offset-1 col-md-10">
@@ -179,8 +176,6 @@
                 </div>
 
             </div>
-
-        </div>
 
     </div>
     <!-- /.container -->

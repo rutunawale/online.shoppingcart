@@ -10,6 +10,6 @@
                 </div>
             </div>
         </footer>
-
+     </hr>
     </div>
     <!-- /.container -->

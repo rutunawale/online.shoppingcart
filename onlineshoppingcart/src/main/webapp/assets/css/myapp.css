@@ -64,7 +64,7 @@ footer {
  */
      .wrapper{
      min-hight:100%;
-     position:relative;
+     position: relative;
      
       }
 
@@ -77,6 +77,17 @@ footer {
 	position:absolute;
 	bottem:15px;
 	height:60px;
+}
+ul.list-group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.list-group-item {
+    float: left;
+}
+
 }
 
 

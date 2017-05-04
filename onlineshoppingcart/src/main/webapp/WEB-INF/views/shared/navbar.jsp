@@ -29,18 +29,7 @@
                     </li> --%>
                     
                
-                     <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Category
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Womens</a></li>
-          <li><a href="#">Mens</a></li>
-          <li><a href="#">kids</a></li>
-          
-       </ul>
-      </li>
-                </ul>
-            </div>
+                    
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
